@@ -12,4 +12,7 @@ FROM openjdk:8-jdk-alpine
 COPY --from=build /target/Task-Manager-0.0.1-SNAPSHOT.jar schedule-app.jar
 # ENV PORT=8080
 EXPOSE 8080
+ENV DATASOURCE_URL=$DATASOURCE_URL \
+    DATASOURCE_USERNAME=$DATASOURCE_USERNAME \
+    DATASOURCE_PASSWORD=$DATASOURCE_PASSWORD
 ENTRYPOINT ["java","-jar","schedule-app.jar"]
