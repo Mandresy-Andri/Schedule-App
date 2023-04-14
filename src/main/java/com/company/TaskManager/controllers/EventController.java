@@ -11,7 +11,7 @@ import java.sql.Date;
 import java.util.List;
 import java.util.Optional;
 
-@CrossOrigin(origins = "http://localhost:3000") //allow CORS for my localhost
+@CrossOrigin(origins = "https://schedule-app-frontend.onrender.com") //allow CORS for my react client
 @RestController
 public class EventController {
 
