@@ -25,5 +25,5 @@ This system allows users to add, edit, and delete events. All events are stored 
 ## Executing program
 
 ---
-* The service can be accessed at this url:
+* The fully working service can be accessed at this url: https://schedule-app-frontend.onrender.com
 
